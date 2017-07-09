@@ -1,8 +1,8 @@
 .DS_Store
-/.idea
-/.vscode
-/.build
-/Packages
-/*.xcodeproj
-/target
+.idea
+.vscode
+.build
+Packages
+*.xcodeproj
+target
 *.bk
