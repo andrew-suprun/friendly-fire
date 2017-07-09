@@ -10,5 +10,9 @@ let package = Package(
         .target(
             name: "friendly-fire",
             dependencies: []),
+        .target(
+          name: "cli",
+          dependencies: [
+          ]),
     ]
 )

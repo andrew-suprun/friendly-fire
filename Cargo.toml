@@ -1,0 +1,7 @@
+[package]
+authors = ["Andrew Suprun <andrew.suprun@gmail.com>"]
+name = "friendly-fire"
+version = "0.1.0"
+
+[dependencies]
+error-chain = "0.10.0"
