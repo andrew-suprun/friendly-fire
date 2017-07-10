@@ -6,7 +6,6 @@ main() async {
   await for (final data in process.stdout.transform(UTF8.decoder)) {
     print(data);
   }
-  process.exitCode.then((exitCode) {
-    print('exit code: $exitCode');
-  });
+  final exitCode = await process.exitCode;
+  print('exit code: $exitCode');
 }
